@@ -85,7 +85,7 @@ export default function HeroSection() {
           transition={{ duration: 0.8, delay: 0.8 }}
         >
           <a
-            href="https://github.com/bhoomikamarigoudar"
+            href="https://github.com/bhoomika1714"
             target="_blank"
             rel="noopener noreferrer"
             className="text-2xl text-muted-foreground hover:text-primary transition-colors"
@@ -94,7 +94,7 @@ export default function HeroSection() {
             <Github className="h-6 w-6" />
           </a>
           <a
-            href="https://linkedin.com/in/bhoomika-marigoudar"
+            href="https://www.linkedin.com/in/bhoomika-marigoudar-5507a8264/"
             target="_blank"
             rel="noopener noreferrer"
             className="text-2xl text-muted-foreground hover:text-primary transition-colors"

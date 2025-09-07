@@ -126,7 +126,7 @@ export default function ContactSection() {
                 className="cosmic-card hover:bg-primary hover:text-background transition-all"
                 data-testid="link-github-contact"
               >
-                <a href="https://github.com/bhoomikamarigoudar" target="_blank" rel="noopener noreferrer">
+                <a href="https://github.com/bhoomika1714" target="_blank" rel="noopener noreferrer">
                   <Github className="h-5 w-5" />
                 </a>
               </Button>
@@ -137,7 +137,7 @@ export default function ContactSection() {
                 className="cosmic-card hover:bg-primary hover:text-background transition-all"
                 data-testid="link-linkedin-contact"
               >
-                <a href="https://linkedin.com/in/bhoomika-marigoudar" target="_blank" rel="noopener noreferrer">
+                <a href="https://www.linkedin.com/in/bhoomika-marigoudar-5507a8264/" target="_blank" rel="noopener noreferrer">
                   <Linkedin className="h-5 w-5" />
                 </a>
               </Button>

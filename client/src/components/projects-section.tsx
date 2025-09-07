@@ -2,7 +2,7 @@ import { motion } from "framer-motion";
 import { Card, CardContent } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
-import { Smartphone, Bot, Brain, Warehouse, Github, ExternalLink } from "lucide-react";
+import { Smartphone, Bot, Brain, Warehouse, Github, ExternalLink, Code } from "lucide-react"; // ✅ Import Code here
 import { resumeData } from "@/lib/resume-data";
 
 const projectIcons = {
@@ -30,7 +30,7 @@ export default function ProjectsSection() {
         <div className="grid md:grid-cols-2 gap-8">
           {resumeData.projects.map((project, index) => {
             const IconComponent = projectIcons[project.name as keyof typeof projectIcons] || Code;
-            
+
             return (
               <motion.div
                 key={project.name}
@@ -56,7 +56,7 @@ export default function ProjectsSection() {
                         <Badge
                           key={tech}
                           variant="secondary"
-                          className="bg-primary bg-opacity-20 text-primary"
+                          className="bg-primary bg-opacity-20 text-white"
                           data-testid={`tech-badge-${tech.toLowerCase()}`}
                         >
                           {tech}

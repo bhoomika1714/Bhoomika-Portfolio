@@ -44,7 +44,6 @@ BHOOMIKA MARIGOUDAR
 Software Engineer
 
 Email: bhoomikamarigoudar@gmail.com
-Phone: +91 8073481121
 Location: Dharwad, Karnataka
 
 SUMMARY
